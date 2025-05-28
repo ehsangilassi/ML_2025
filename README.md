@@ -7,9 +7,16 @@
         o	Introduction to Machine Learning
         o	Type of Learning
         o	Supervised vs Unsupervised
-        o	Python for Machine Learning 
+        o	Work with Python
+        o	Data Manipulation with Python
 
 
+### •	Work with Data
+        o	Data Cleaning
+        o	Data Dimension
+        o	EDA 
+        o	Data Anaysis
+        
 ### •	Clustering
         o	Introduction to Clustering
         o	K-Means, Mean-shift

@@ -2,10 +2,12 @@ from pandas import read_csv, DataFrame
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
+from utility import DATA_PATH
+
 """ Read Data """
-path = 'D:/z_during/machineLearning/data/'
+
 file_name = 'data_checkin_loc.csv'
-df = read_csv(path + file_name)
+df = read_csv(DATA_PATH + file_name)
 print(df)
 
 """ Plot Check_in Data for Tehran """

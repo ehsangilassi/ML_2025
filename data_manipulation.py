@@ -6,11 +6,9 @@ In the below code we practice data manipulation using pandas and numpy library."
 
 # Library:
 from pandas import read_csv
-
 import matplotlib.pyplot as plt
 
-from utility import BASE_DIR
-
+from utility import DATA_PATH
 
 """ Functions: """
 
@@ -20,7 +18,7 @@ def read_csv_file(path, file_name):
     return df
 
 
-df = read_csv_file(BASE_DIR + "/data/", "usa_housing_kaggle.csv")
+df = read_csv_file(DATA_PATH, "usa_housing_kaggle.csv")
 df.Price.plot(kind="hist")
 plt.show()
 

@@ -17,7 +17,7 @@ plt.xlabel('Longitude'), plt.ylabel('Latitude')
 plt.show()
 
 """ Use K-Means for Clustering """
-k_means = KMeans(n_clusters=3).fit(df)
+k_means = KMeans(n_clusters=5, max_iter=300, random_state=42).fit(df)
 centroids = k_means.cluster_centers_
 print("Centroid of Clustering", centroids)
 # df["label"] = label_kmean
@@ -25,17 +25,20 @@ print("Centroid of Clustering", centroids)
 """ Plot Clustering """
 plt.scatter(df['X'], df['Y'], c=k_means.labels_.astype(float), s=50, alpha=0.5)
 plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=100, label=[0, 1, 2])
-text = ['c0', 'c1', 'c2']
+text = ['c0', 'c1', 'c2', 'c3', 'c4']
 for i in range(len(centroids)):
     plt.annotate(text[i], (centroids[i][0], centroids[i][1] + 4))
 plt.title('Check in data is cluster!!')
 plt.xlabel('X'), plt.ylabel('Y')
 plt.show()
+
+
 """ Add a test data to Predict Cluster """
 sample_coordinate = [538000, 3948000]
 df_sample = DataFrame({"X": [sample_coordinate[0]], "Y": [sample_coordinate[1]]})
 predict_cluster = k_means.predict(df_sample)
 print("predict_cluster : ", predict_cluster)
+
 plt.scatter(sample_coordinate[0], sample_coordinate[1], cmap='spring')
 plt.text(sample_coordinate[0], sample_coordinate[1], "Test Data")
 plt.show()

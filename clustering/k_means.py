@@ -1,16 +1,18 @@
+#  Library
 from pandas import read_csv
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
-from utility import BASE_DIR
+from utility import DATA_PATH
 
 """ Load Mall Customer Data """
-path = BASE_DIR + '/data/'
+
 file_name = 'Mall_Customers.csv'
-mall_data = read_csv(path + file_name)
+mall_data = read_csv(DATA_PATH + file_name)
 
 """ Rename Columns """
 mall_data = mall_data.rename(columns={"Annual Income (k$)": "Income", "Spending Score (1-100)": "Spending"})
+
 
 # Plot Mall Customer Data
 mall_data.plot.scatter(x="Income", y="Spending")

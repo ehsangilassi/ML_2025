@@ -32,7 +32,6 @@ optics_model.fit(X)
 
 # labels
 labels = optics_model.labels_
-print(np.unique(labels))
 reachability = optics_model.reachability_[optics_model.ordering_]
 space = np.arange(len(X))
 ordering = optics_model.ordering_

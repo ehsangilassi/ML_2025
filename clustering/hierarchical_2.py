@@ -5,7 +5,6 @@ import seaborn as sns
 from scipy.cluster.hierarchy import dendrogram, linkage
 from utility import DATA_PATH
 
-dd = read_csv(DATA_PATH + 'test.csv')
 """ 
 Data:
         which contains information for nine different protein sources and 

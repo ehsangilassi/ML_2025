@@ -61,9 +61,6 @@
             . Students should have basic knowledge of Python 
             . Have a system with Python 3 installed on their systems 
             . Installed a suitable IDE for Python. Ex: PyCharm
-##### •	Duration Time: 24-48 H
-##### •	Day of Week: Thursdays and Fridays.
-##### •	Suggested Time:10-14
 ##### •	Useful for:
 ##### •	Engineers, Data analysts, Data Scientists, Data Engineers, and all lovers of AI
 

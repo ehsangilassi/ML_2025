@@ -10,7 +10,7 @@ Data:
         which contains information for nine different protein sources and 
         their respective consumption from various countries.
 """
-df = read_csv('https://raw.githubusercontent.com/LearnDataSci/glossary/main/data/protein.csv')
+df = read_csv(DATA_PATH + 'protein_data.csv')
 
 """ Hierarchical Clustering """
 data_features = df.iloc[:, 1:10]

@@ -19,29 +19,31 @@
         
 ### •	Clustering
         o	Introduction to Clustering
-        o	K-Means, Mean-shift
-        o	Gaussian Mixture 
-        o	Spectral clustering 
-        o	Hierarchical (Agglomerative, Divisive) 
+        o	K-Means, mini batch K-means
         o	DBSCAN, OPTICS
+        o	Gaussian Mixture 
+        o	Hierarchical (Agglomerative, Divisive) 
+        o	Spectral clustering 
+
+### •	Regression
+        o	Introduction to Regression 
+        o	Type of Regressor
+        o	Simple Linear Regression 
+        o	Non-Linear Regression 
+        o	Ridge Regression 
+        o	Lasso Regression 
 
 ### •	Classification
         o	Introduction to Classification 
         o	Evaluation Metrics in Classification 
+        o	Logistic Regression
         o	K-Nearest Neighbors
         o	Naive Bayes 
         o	Decision Trees 
         o	Support Vector Machine (SVM) 
         o	Random Forest (RF)
 
-### •	Regression
-        o	Introduction to Regression 
-        o	Simple Linear Regression 
-        o	Non-Linear Regression 
-        o	Logistic Regression 
-        o	Type of Regressor
-
-### •	Deep Learning
+### •	Neural Networks
         o	Definition
         o	Theory
         o	Work with Keras 

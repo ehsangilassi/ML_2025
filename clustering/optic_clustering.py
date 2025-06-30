@@ -11,7 +11,7 @@ plt.scatter(X[:, 0], X[:, 1])
 plt.show()
 
 # DBSCAN
-dbscan_cluster = DBSCAN(eps=0.5, min_samples=5)
+dbscan_cluster = DBSCAN(eps=1.5, min_samples=5)
 # Increase eps to 1.5
 dbscan_cluster.fit(X)
 labels_dbscan = dbscan_cluster.labels_

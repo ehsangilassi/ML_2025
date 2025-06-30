@@ -1,8 +1,7 @@
-from pandas import DataFrame, read_csv
+from pandas import read_csv
 import matplotlib.pyplot as plt
 from sklearn.cluster import DBSCAN
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
-from sklearn import metrics
 from numpy import sort
 from sklearn.datasets import make_moons
 from sklearn.cluster import KMeans
@@ -21,7 +20,7 @@ plt.show()
 
 """ Compare between DBSCAN & K-Means """
 # DBSCAN clustering
-dbscan = DBSCAN(eps=0.15, min_samples=5)
+dbscan = DBSCAN(eps=0.17, min_samples=5)
 dbscan_labels = dbscan.fit_predict(X)
 
 # K-Means clustering
@@ -90,7 +89,7 @@ scaler = StandardScaler()
 X_scaled = scaler.fit_transform(df)
 
 # DBSCAN Calculation:
-clustering = DBSCAN(eps=0.2, min_samples=5)
+clustering = DBSCAN(eps=0.3, min_samples=5)
 clusters = clustering.fit_predict(X_scaled)
 label_of_points = clustering.labels_
 n_clusters_ = len(set(label_of_points)) - (1 if -1 in label_of_points else 0)

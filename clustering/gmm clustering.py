@@ -1,7 +1,6 @@
 from pandas import read_csv, DataFrame
 from sklearn.mixture import GaussianMixture
 import matplotlib.pyplot as plt
-from numpy import unique
 
 from utility import DATA_PATH
 file_name = 'unbalanced.txt'

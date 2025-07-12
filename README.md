@@ -28,10 +28,14 @@
 ### •	Regression
         o	Introduction to Regression 
         o	Type of Regressor
-        o	Simple Linear Regression 
-        o	Non-Linear Regression 
+        o	Simple Linear Regression
+        o	Multiple Linear Regression
+        o	Non-Linear Regression
+        o	Polynomial Regression 
         o	Ridge Regression 
-        o	Lasso Regression 
+        o	Lasso Regression
+        o	Hyperparameter Tuning 
+        
 
 ### •	Classification
         o	Introduction to Classification 
@@ -43,17 +47,18 @@
         o	Support Vector Machine (SVM) 
         o	Random Forest (RF)
 
+
 ### •	Neural Networks
-        o	Definition
-        o	Theory
-        o	Work with Keras 
-        o	Develop first MLP 
-
-### •	Project
-        o	Individual or Team
-        o	Define Subject
-        o	Represent (code, Doc)
-
+        o	Definition & Theory
+        o	Neural Network
+        o	Feedforward & Backpropagation 
+        o	MLP
+        o	CNN
+        o	RNN
+            o	LSTM
+            o	GRU
+            o	GAN
+        o	Another Model
 
 
 ## Description

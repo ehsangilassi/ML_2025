@@ -30,7 +30,6 @@
         o	Type of Regressor
         o	Simple Linear Regression
         o	Multiple Linear Regression
-        o	Non-Linear Regression
         o	Polynomial Regression 
         o	Ridge Regression 
         o	Lasso Regression
